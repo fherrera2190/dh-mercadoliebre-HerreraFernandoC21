@@ -1,0 +1,49 @@
+.home header{
+  background-color: var(--amarillo);
+}
+.home__header__menu nav {
+  margin-top: 1rem;
+}
+.home__header__menu nav ul li {
+  list-style: none;
+}
+.home__header__menu--logo {
+  width: 180px;
+  padding: 1rem;
+}
+h2{
+    font-size: 24px;
+}
+
+.home__header__menu nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.burger-menu {
+  padding: 1rem 0px 1rem 0px;
+  text-align: center;
+}
+
+.burger-menu i {
+  background-color: var(--celeste);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.home__header__menu--search {
+  padding-left: 1rem;
+}
+
+.home__header__menu--search i {
+  background-color: white;
+  border: 1px solid black;
+  margin: 1px;
+  padding: 2px;
+}
+
+.home__header__menu--payqoutes {
+  text-align: center;
+  padding-left: 1rem;
+}

@@ -1,0 +1,19 @@
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --grisOscuro: #666;
+  --grisClaro: #ebebeb;
+  --verde: #39b54a;
+  --fontSizeText: 12px;
+  --fontSizeTitle: 24px;
+  --fontSizePrice: 18px;
+  --fontSizeDescuento: 1rem;
+  --fontSizeDescription: 1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}

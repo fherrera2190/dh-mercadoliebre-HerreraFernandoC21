@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mercado Liebre</title>
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
-    <header>
-        <div>
+<body class="home">
+    <header class="home__header__menu">
+        <div class="home__header__menu--logo">
             <a href="/home"><img src="/img/logo-mercado-liebre.svg" alt="Logo ML"></a>
         </div>
-        <div>
-            Lugar para poner barra de busqueda
+        <div class="home__header__menu--search">
+            <input type="text" placeholder="Buscar productos, marcas">
+            <br>
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <div>
-            Comprá en cuotas y sin tarjeta de crédito
+        <div class="home__header__menu--payqoutes">
+            <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito
         </div>
+
         <nav>
             <ul>
                 <li><a href="">Ofertas</a></li>
@@ -29,11 +34,14 @@
         </nav>
         <nav>
             <ul>
-                <li><a href="">Creá tu cuenta</a></li>
-                <li><a href="">Ingresá</a></li>
-                <li><a href="">Mis compras</a></li>
+                <li><a href="">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
+                <li><a href="">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
             </ul>
         </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
     <main>
         <!-- Sección: Basado en tu última visita -->
@@ -110,14 +118,14 @@
     </main>
     <footer>
         <section>
-            <h2>Pagá con tarjeta o en efectivo</h2>
+            <h3>Pagá con tarjeta o en efectivo</h3>
             <p>
                 Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                 puntos de pago. ¡Y siempre es seguro!
             </p>
         </section>
         <section>
-            <h2>Envío gratis desde $ 2.500</h2>
+            <h3>Envío gratis desde $ 2.500</h3>
             <p>
                 Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos.
@@ -125,9 +133,9 @@
         </section>
         <section>
 
-            <h2>
+            <h3>
                 Seguridad, de principio a fin
-            </h2>
+            </h3>
             <p>
                 ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.
@@ -138,6 +146,7 @@
         </section>
 
     </footer>
+    <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
