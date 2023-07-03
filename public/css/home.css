@@ -13,7 +13,3 @@
 .card-text__descuento {
   font-size: var(--fontSizeDescuento);
 }
-
-.card-text__descripcion {
-  font-size: var(--fontSizeDescription);
-}
