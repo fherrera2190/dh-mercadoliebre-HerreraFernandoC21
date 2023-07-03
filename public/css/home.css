@@ -1,0 +1,19 @@
+.cards {
+  color: var(--grisOscuro);
+}
+
+.cards__titulo {
+  font-size: var(--fontSizeTitle);
+}
+
+.card-text__precio {
+  font-size: var(--fontSizePrice);
+}
+
+.card-text__descuento {
+  font-size: var(--fontSizeDescuento);
+}
+
+.card-text__descripcion {
+  font-size: var(--fontSizeDescription);
+}
