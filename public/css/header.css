@@ -6,7 +6,9 @@ header {
     width: 180px;
     padding: 1rem;
 }
-
+.header-bottom-area{
+    padding-bottom: 10px;
+}
 .header-search {
     padding-left: 1rem;
 }
@@ -29,6 +31,7 @@ header {
 
 .header-nav {
     margin-top: 1rem;
+    display: none;
 }
 
 .header-nav__item {
@@ -50,4 +53,16 @@ header {
     padding: 10px;
     border-radius: 5px;
     color: white;
+}
+
+/* MEDIAS QUERIES */
+
+@media (min-width:361px) {
+    .header-nav {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
 }

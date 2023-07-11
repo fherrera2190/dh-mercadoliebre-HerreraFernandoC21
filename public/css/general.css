@@ -4,13 +4,14 @@
   --celeste: #1259c3;
   --grisOscuro: #666;
   --grisClaro: #ebebeb;
-  --verde: #39b54a;
+  --verde: #00a650;
   --fontSizeText: 12px;
   --fontSizeTitle: 1.5rem;
   --fontSizePrice: 18px;
   --fontSizeDescuento: 1rem;
   --fontSizeDescription: 1rem;
 }
+
 * {
   margin: 0;
   padding: 0;
