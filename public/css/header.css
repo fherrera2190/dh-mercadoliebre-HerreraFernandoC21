@@ -74,7 +74,7 @@
 
 /* MEDIAS QUERIES */
 
-@media (min-width:480px) {
+@media (min-width:361px) {
     .header-top-area {
         flex-wrap: nowrap;
         align-items: center;
@@ -87,6 +87,7 @@
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
+        padding-bottom: 10px;
     }
 
     .header__logo {
@@ -94,7 +95,7 @@
     }
 
     .header__logo img {
-        width: 180px;
+        width: 100%
     }
 
     .header-search {
@@ -105,11 +106,7 @@
 
     .header-payqoutes {
         padding-top: 0;
-        font-size: .8rem;
-    }
-
-    .header-bottom-area {
-        padding-bottom: 10px;
+        font-size: .6rem;
     }
 
     .header-nav {
@@ -120,7 +117,7 @@
     }
 
     .header-nav {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     .header-nav__list-right {
@@ -147,6 +144,10 @@
         align-items: center;
         justify-content: space-between;
         padding: 15px 0 15px 0;
+    }
+
+    .header__logo img {
+        width: 180px;
     }
 
     .header-payqoutes {
