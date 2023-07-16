@@ -1,11 +1,14 @@
 /* MAIN */
 .main {
-  width: 90%;
   margin: 0 auto;
 }
 
+.main__banner img{
+  width: 100%;
+}
 .cards {
-  margin: 10px 0;
+  width: 90%;
+  margin: 10px auto;
   color: var(--grisOscuro);
 }
 
