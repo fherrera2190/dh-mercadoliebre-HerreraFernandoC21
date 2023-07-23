@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.main__banner img{
+.main__banner img {
   width: 100%;
 }
 .cards {
@@ -21,6 +21,7 @@
 }
 
 .card {
+  background-color: white;
   margin: 10px 0;
   padding: 15px;
   border: 1px solid var(--grisClaro);
@@ -54,11 +55,11 @@
   margin-top: 10px;
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .card-body__precio {
   font-size: var(--fontSizePrice);
-  width: 30%;
 }
 
 .card-body__descuento {
@@ -70,7 +71,7 @@
   display: none;
 }
 
-@media (min-width:361px) {
+@media (min-width: 481px) {
   .card-body__descripcion {
     display: block;
     margin-top: 10px;
@@ -90,17 +91,10 @@
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 45%;
   }
-
-  .card-body__precio {
-    width: 50%;
-  }
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .card {
     width: 23%;
-  }
-  .card-body__precio {
-    width: 30%;
   }
 }

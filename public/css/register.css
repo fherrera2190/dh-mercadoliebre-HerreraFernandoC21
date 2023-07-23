@@ -1,0 +1,66 @@
+.register__main {
+  background-color: var(--grisClaro);
+}
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.register__form {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.register__form h3, h4{
+  color: var(--grisOscuro);
+}
+
+.register__form input {
+  padding: 10px;
+  border: 1px solid var(--grisClaro);
+  border-radius: 5px;
+  margin: 15px 0;
+}
+.form__perfil {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 15px;
+}
+
+.form__intereses {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+.form__intereses__item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.form__button {
+  padding: 10px 30px;
+  background-color: var(--celeste);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+@media (min-width: 481px) {
+  .main-container {
+    width: 70%;
+  }
+  .form__button {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-container {
+    width:40%;
+  }
+  .form__button {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
