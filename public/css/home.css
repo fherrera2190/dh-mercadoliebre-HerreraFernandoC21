@@ -6,6 +6,7 @@
 .main__banner img {
   width: 100%;
 }
+
 .cards {
   width: 90%;
   margin: 10px auto;
@@ -72,11 +73,6 @@
 }
 
 @media (min-width: 481px) {
-  .card-body__descripcion {
-    display: block;
-    margin-top: 10px;
-  }
-
   .cards {
     display: flex;
     justify-content: space-between;
@@ -95,6 +91,10 @@
 
 @media (min-width: 769px) {
   .card {
-    width: 23%;
+    width: 21%;
+  }
+
+  .card:hover .card-body:last-child p {
+    display: block;
   }
 }
