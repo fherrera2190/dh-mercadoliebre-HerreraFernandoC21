@@ -27,6 +27,7 @@
   padding: 10px;
   width: 100%;
   border-radius: 5px;
+  outline: none;
 }
 
 .header-search__button {
@@ -52,7 +53,7 @@
   overflow: hidden;
 }
 .showMenu {
-  height:180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -78,6 +79,7 @@
 .burger-menu__button {
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .burger-menu__i {

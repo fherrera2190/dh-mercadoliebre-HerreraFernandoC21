@@ -23,6 +23,8 @@
 
 .footer__copyright {
   padding: 20px 0;
+  width: 85%;
+  margin: 0 auto;
 }
 @media (min-width: 769px) {
   .footer {
@@ -42,7 +44,8 @@
   }
   .footer__copyright {
     margin-top: 20px;
-    width: 90%;
+    padding: 0;
+    width: 100%;
     display: flex;
     justify-content: start;
   }
