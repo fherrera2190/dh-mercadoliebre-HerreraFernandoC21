@@ -69,7 +69,8 @@
 }
 
 .card-body__descripcion {
-  display: none;
+  height: 0;
+  overflow: hidden;
 }
 
 @media (min-width: 481px) {
