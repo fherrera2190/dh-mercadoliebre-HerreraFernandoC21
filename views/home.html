@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="/css/styles.css">
     <title>Mercado Liebre</title>
 </head>
@@ -21,26 +20,27 @@
                 <button class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <div class="header-payqoutes">
-                <i class="fa-solid fa-hand-holding-dollar"></i><span>Comprá en cuotas y sin tarjeta de crédito</span>
+                <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito
             </div>
         </div>
-        <div class="burger-menu">
-            <a onclick="" class="burger-menu__link" href=""><i class="fas fa-bars burger-menu__i"></i></a>
-        </div>
         <div class="header-bottom-area">
+            <div class="burger-menu">
+                <button onclick="document.querySelector('.header-nav').classList.toggle('showMenu')"
+                    class="burger-menu__button" href=""><i class="fas fa-bars burger-menu__i"></i></button>
+            </div>
             <nav class="header-nav">
                 <ul class="header-nav__list-left">
                     <li class="list-left__item">
-                        <a class="header-nav__link" href="">Ofertas</a>
+                        <a class="header-nav__link" href="#">Ofertas</a>
                     </li>
                     <li class="list-left__item">
-                        <a class="header-nav__link" href="">Tiendas Oficiales</a>
+                        <a class="header-nav__link" href="#">Tiendas Oficiales</a>
                     </li>
                     <li class="list-left__item">
-                        <a class="header-nav__link" href="">Vender</a>
+                        <a class="header-nav__link" href="#">Vender</a>
                     </li>
                     <li class="list-left__item">
-                        <a class="header-nav__link" href="">Ayuda</a>
+                        <a class="header-nav__link" href="#">Ayuda</a>
                     </li>
                 </ul>
                 <ul class="header-nav__list-right">
@@ -53,7 +53,7 @@
                                 class="fa-solid fa-right-to-bracket"></i></a>
                     </li>
                     <li class="list-right__item">
-                        <a class="header-nav__link" href="">Mis compras <i class="fa-solid fa-basket-shopping"></i></a>
+                        <a class="header-nav__link" href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a>
                     </li>
                 </ul>
             </nav>
@@ -177,6 +177,7 @@
                         <p class="card-body__precio">$23.200</p>
                         <p class="card-body__descuento">5% OFF</p>
                     </div>
+
                     <p class="card-body__descripcion">SmartTv Samsung 43"</p>
                 </div>
             </div>
@@ -213,10 +214,9 @@
                 </p>
             </section>
             <section class="footer__copyright">
-                <h5 class="footer-section__h5">Copyright © 1999-2020 MercadoLiebre S.R.L.</h5>
+                <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
             </section>
         </div>
-
     </footer>
     <script src="https://kit.fontawesome.com/be2c20f70d.js" crossorigin="anonymous"></script>
 </body>
