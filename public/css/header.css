@@ -1,5 +1,6 @@
 .header {
   background-color: var(--amarillo);
+  padding-bottom: 10px;
 }
 
 .header-top-area {
@@ -45,6 +46,7 @@
   justify-content: end;
   align-items: center;
   width: 100%;
+  gap: 20px;
   padding-top: 1rem;
 }
 
@@ -124,6 +126,7 @@
   .header-payqoutes {
     padding-top: 0;
     font-size: 0.6rem;
+    gap: 0px;
   }
   .header-nav {
     height: auto;
