@@ -100,8 +100,17 @@
                     </div>
                 </div>
 
-                <button class="form__button" type="submit">Enviar</button>
+                <div class="form__file">
+                    <h4>Subir foto</h4>
+                    <input class="form__file-input" type="file" name="file" id="file">
+                </div>
 
+                <input type="password" placeholder="Contraseña" id="password1" required>
+                <input type="password" placeholder="Repetir Contraseña" id="password2" required>
+                <div class="form__buttons">
+                    <button type="reset" class="form__button-reset">Borrar</button>
+                    <button class="form__button-send " type="submit">Enviar</button>
+                </div>
             </form>
         </div>
     </main>

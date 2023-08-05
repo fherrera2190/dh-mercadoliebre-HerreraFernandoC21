@@ -54,11 +54,13 @@
   height: 0;
   overflow: hidden;
 }
+
 .showMenu {
   height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-left: 20px;
 }
 
 .list-left__item {
@@ -78,6 +80,7 @@
   padding: 0 0px 1rem 0px;
   text-align: center;
 }
+
 .burger-menu__button {
   border: none;
   border-radius: 5px;
@@ -128,6 +131,7 @@
     font-size: 0.6rem;
     gap: 0px;
   }
+
   .header-nav {
     height: auto;
     display: flex;

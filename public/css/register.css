@@ -1,16 +1,19 @@
 .register__main {
   background-color: var(--grisClaro);
 }
+
 .main-container {
   width: 90%;
   margin: 0 auto;
   max-width: 450px;
 }
+
 .register__form {
   padding: 20px 0;
   display: flex;
   flex-direction: column;
 }
+
 .register__form h3,
 h4 {
   color: var(--grisOscuro);
@@ -23,6 +26,7 @@ h4 {
   margin: 15px 0;
   outline: none;
 }
+
 .form__perfil {
   display: flex;
   align-items: center;
@@ -35,33 +39,77 @@ h4 {
   display: flex;
   flex-direction: column;
 }
+
+.form__file {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__file input {
+  margin-top: 10px 0;
+  padding: 10px 10px 10px 0px;
+}
+
 .form__intereses__item {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.form__button {
+
+.form__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__button-reset {
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  transition: all 1seg ease;
+  border: 1px solid gray;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.form__button-send {
   padding: 10px 30px;
   background-color: var(--botonEnviar);
   color: white;
   border-radius: 5px;
   border: none;
-  width: 100%;
   transition: all 1seg ease;
+  width: 50%;
 }
+
 @media (min-width: 481px) {
-  .form__button {
-    margin: 0 auto;
+  .register__form button {
+    margin: 10px auto;
+    width: 40%;
+  }
+
+  .form__buttons {
+    flex-direction: row;
+    justify-content: space-around
+  }
+
+  .form__intereses {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .form__intereses__item {
     width: 50%;
   }
 }
 
 @media (min-width: 769px) {
-  .form__button {
-    margin: 0 auto;
-    width: 50%;
-  }
+
   .form__button:hover {
     background-color: var(--celeste);
   }
+
+
 }
